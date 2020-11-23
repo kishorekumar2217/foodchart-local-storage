@@ -1,0 +1,22 @@
+import React from 'react';
+import Form from './Form';
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Button,Modal,Col,Image,Row,Container,P} from 'react-bootstrap';// bootstrap import ,boot strap css is added into index.js
+import './App.css';
+class App extends React.Component {
+ 
+ 
+ render (){
+  return(
+<div >
+<Form/>
+
+</div>
+  
+  );
+}
+}
+export default App;
